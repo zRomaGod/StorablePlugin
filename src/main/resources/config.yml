@@ -1,0 +1,28 @@
+Database:
+  IP: 127.0.0.1:3306
+  Database: rankup
+  User: root
+  Password: ""
+
+
+drops:
+  blocodeouro:
+    price: 10.0
+    item: '41:0'
+    icon:
+      id: '41:0'
+      head-texture: ''
+      display-name: '&aBloco de Ouro'
+      lore:
+        - '&fQuantia: &7<drop-amount>'
+        - ''
+        - '&fValor p/ unidade: &2$&f<drop-price>'
+        - '&fValor total: &2$&f<total-price>'
+        - ''
+        - '&aClique para vender!'
+
+bonus:
+  mvpplus:
+    friendly-name: '§6MVP§e+'
+    permission: 'valhalla.drops.bonus.mvpplus'
+    bonus-value: 25
